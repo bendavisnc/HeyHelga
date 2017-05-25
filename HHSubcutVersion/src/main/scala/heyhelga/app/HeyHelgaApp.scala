@@ -18,4 +18,9 @@ object HeyHelgaApp extends HeyHelgaAppProto with DynamicModuleIncluded with Inje
 		inject[Episode]
 	}
 
+	override def main (args: Array[String]) {
+		import timeutil.Time.time
+		time {super.main(args)}
+	}
+
 }

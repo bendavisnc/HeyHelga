@@ -16,4 +16,9 @@ object HeyHelgaApp extends HeyHelgaAppProto {
 			.getInstance(classOf[SuperShortEpisode])
 	}
 
+	override def main (args: Array[String]) {
+		import timeutil.Time.time
+		time {super.main(args)}
+	}
+
 }

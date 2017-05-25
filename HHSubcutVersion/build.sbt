@@ -9,6 +9,8 @@ version := "0.0.4"
 
 libraryDependencies += "gmail.bendavisnc" %% "heyhelgacommon" % "0.2.0"
 
+libraryDependencies += "gmail.bendavisnc" %% "timeutil" % "1.0"
+
 libraryDependencies += "com.escalatesoft.subcut" % "subcut_2.11" % "2.1"
 
 

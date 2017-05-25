@@ -9,6 +9,7 @@ version := "0.0.4"
 
 libraryDependencies += "gmail.bendavisnc" %% "heyhelgacommon" % "0.2.0"
 
-libraryDependencies += "org.scaldi" %% "scaldi" % "0.5.8"
+libraryDependencies += "gmail.bendavisnc" %% "timeutil" % "1.0"
 
+libraryDependencies += "org.scaldi" %% "scaldi" % "0.5.8"
 

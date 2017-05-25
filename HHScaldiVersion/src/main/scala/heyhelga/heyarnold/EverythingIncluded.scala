@@ -6,6 +6,8 @@ import heyhelga.heyarnold.items.ItemsIncluded
 
 trait EverythingIncluded extends EverythingIncludedProto with CastRequirementsIncluded with ItemsIncluded {
 
+	import scaldi.Injectable._
 
+	val sessionStringBuilder: StringBuilder = inject[StringBuilder]
 
 }

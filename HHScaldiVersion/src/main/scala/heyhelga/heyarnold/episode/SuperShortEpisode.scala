@@ -11,7 +11,6 @@ class SuperShortEpisode extends SuperShortEpisodeProto with EverythingIncluded w
 
 	val title: String = inject[String]('title)
 
-	val sessionStringBuilder: StringBuilder = inject[StringBuilder]
 
 }
 
