@@ -5,11 +5,11 @@
 
 An exploration of different dependency injection libraries in scala:
 
-[Scaldi](http://scaldi.org/) > Elapsed time: 1161.78863 msecs
+[Scaldi](http://scaldi.org/) _Elapsed time: 1161.78863 msecs_
 
-[Guice](https://github.com/google/guice) > Elapsed time: 851.026637 msecs
+[Guice](https://github.com/google/guice) _Elapsed time: 851.026637 msecs_
 
-[Subcut](https://github.com/dickwall/subcut) > Elapsed time: 37.112063 msecs
+[Subcut](https://github.com/dickwall/subcut)  _Elapsed time: 37.112063 msecs_
 
 
 Each project makes use of the same core library, and puts everything together with a different DI library.
